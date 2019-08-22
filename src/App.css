@@ -12,6 +12,7 @@
   background-color:aquamarine;
   min-height: 100vh;
   color:black;
+
 }
 .email{
   width: 30%;
@@ -19,5 +20,8 @@
 }
 .contraseña{
   width: 30%;
+ 
+}
+.chack{
  
 }

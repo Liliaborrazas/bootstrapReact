@@ -1,9 +1,16 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Image from 'react-bootstrap/Image';
+import conejo from '../images/conejo.jpg';
+
 
 export default function Formulario(){
     return(
+        <>
+ 
+  <Image src= {conejo} roundedCircle roundedCircle/>
+
 <Form>
 <Form.Group controlId="formBasicEmail">
   <Form.Label>Email</Form.Label>
@@ -20,12 +27,14 @@ export default function Formulario(){
   </Form.Text>
 </Form.Group>
 <Form.Group controlId="formBasicChecbox">
-  <Form.Check type="checkbox" label="Checkea me" />
+ 
+  <Form.Check type="checkbox" label="Checkea me" className="chack" />
 </Form.Group>
 <Button variant="primary" type="submit">
   Guardar
 </Button>
 </Form>
+</>
     )
 }
 
